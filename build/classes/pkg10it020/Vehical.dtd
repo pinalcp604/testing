@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Vehical.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE Vehical SYSTEM "Vehical.dtd">
+
+    <Vehical>
+    ...
+    </Vehical>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Vehical (Four-Wheeler|Two-Wheeler)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Two-Wheeler (Bicycle|Mopad|Bike)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Bike (Model|Price|Company)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Company (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Price (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Model (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Mopad (Model|Price|Company)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Bicycle (Model|Price|Company)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Four-Wheeler (Luxery|Suv)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Suv (Model|Price|Company)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Luxery (Model|Price|Company)*>

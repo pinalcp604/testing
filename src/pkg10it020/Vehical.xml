@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml:stylesheet type="text/xsl" href="VehicalStyleSheet.xsl"?>
+<!--
+    Document   : student.xml
+    Created on : August 1, 2013, 2:31 PM
+    Author     : Administrator
+    Description:
+        Purpose of the document follows.
+-->
+
+<Vehical>
+    <Two-Wheeler>
+        <Bike>
+            <Company>Bajaj</Company>
+            <Price>37,000</Price>
+            <Model>Model123</Model>            
+        </Bike>
+        <Bike>
+            <Company>Honda</Company>
+            <Price>48,000</Price>
+            <Model>Model123</Model>    
+        </Bike>
+        <Mopad>
+            <Company>Bajaj</Company>
+            <Price>23,000</Price>
+            <Model>Model13</Model>    
+        </Mopad>
+         <Mopad>
+            <Company>Hero</Company>
+            <Price>13,000</Price>
+            <Model>Model13</Model>    
+        </Mopad>
+        <Bicycle>
+            <Company>Hero</Company>
+            <Price>4,000</Price>
+            <Model>Model3</Model>
+        </Bicycle>
+        
+    </Two-Wheeler>
+
+    <Four-Wheeler>
+        <Suv>
+            <Company>Toyota</Company>
+            <Price>9,77,000</Price>
+            <Model>Model23</Model>  
+        </Suv>
+        <Luxery>
+            <Company>Toyota</Company>
+            <Price>30,77,000</Price>
+            <Model>Model23</Model>  
+        </Luxery>          
+    </Four-Wheeler>
+    
+</Vehical>
