@@ -18,4 +18,15 @@ public class Main {
         System.out.pritnln("hello world");
 	 System.out.pritnln("hello world from local");
     }
+
+public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.pritnln("hello world");
+	 System.out.pritnln("hello world from local");
+    }
+public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.pritnln("hello world");
+	 System.out.pritnln("hello world from local");
+    }
 }
